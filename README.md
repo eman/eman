@@ -1,4 +1,4 @@
-Python developer working on home energy monitoring and IoT. Most of my open-source work is local-first device libraries, Home Assistant integrations, and ESPHome components for HVAC and plumbing hardware.
+Python developer working on home energy monitoring and IoT. Most of my open-source work is device libraries, Home Assistant integrations, and ESPHome components for HVAC and plumbing hardware that I have in my home.
 
 ---
 
