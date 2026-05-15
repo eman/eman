@@ -6,6 +6,8 @@ Python developer working on home energy monitoring and IoT. Most of my open-sour
 
 ### Navien NWP500 — [Python library](https://github.com/eman/nwp500-python) / [Home Assistant integration](https://github.com/eman/ha_nwp500)
 
+[![Navien NWP500 Banner](https://raw.githubusercontent.com/eman/ha_nwp500/main/images/banner_small.svg)](https://github.com/eman/ha_nwp500)
+
 Python library and Home Assistant integration for the Navien NWP500 heat pump water heater. The library communicates over the Navien cloud API and a local MQTT connection for real-time state. The HA integration exposes full control (temperature setpoint, operation modes, power), energy tracking, safety sensors (leak detection, freeze protection, scald warnings), and a reservation scheduling service for time-based mode changes.
 
 ### Grundfos ALPHA HWR — [Python library](https://github.com/eman/alpha-hwr)
