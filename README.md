@@ -17,9 +17,10 @@ Python library and CLI for the Grundfos ALPHA HWR domestic hot water recirculati
 
 ESPHome C++ components and YAML packages for the same hardware. Two components: `alpha_hwr` for BLE telemetry and control of the Grundfos ALPHA HWR, and `dhw_demand` for on-device domestic hot water demand detection using pump telemetry and/or Home Assistant sensors. Ships reusable package YAML so external ESPHome configs can pull the component stack directly from GitHub. Also includes an optional Lovelace schedule card for managing weekly pump schedules from Home Assistant.
 
-### Quilt Heat Pumps — [Python library](https://github.com/eman/quilt-hp-python)
+[<img src="https://raw.githubusercontent.com/eman/homeassistant-quilt-hp/main/images/banner.svg" alt="Quilt Home Assistant Integration" width="420">](https://github.com/eman/homeassistant-quilt-hp)
+#### [Python library](https://github.com/eman/quilt-hp-python) / [Home Assistant integration](https://github.com/eman/homeassistant-quilt-hp)
 
-Async Python client library and CLI for Quilt mini-split HVAC systems. Communicates with the Quilt cloud API via gRPC. Supports listing and controlling spaces, indoor units, and comfort presets; managing schedules; querying energy usage; and streaming real-time state updates. Includes a CLI for interactive use and JSON output for scripting.
+Python client library and Home Assistant integration for Quilt mini-split HVAC systems. The library communicates with the Quilt cloud API via gRPC and supports controlling spaces and indoor units, comfort presets, schedules, energy usage queries, and real-time state streaming. The HA integration builds on that client to expose climate/fan/light/select/sensor entities in Home Assistant with OTP auth, multi-home support, and real-time updates with polling fallback.
 
 ### Eagle Home Energy Gateway — [Python library](https://github.com/eman/meter_reader)
 
