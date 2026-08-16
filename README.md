@@ -4,6 +4,11 @@ Python developer working on home energy monitoring and IoT. Most of my open-sour
 
 ## Projects
 
+[<img src="https://raw.githubusercontent.com/eman/tariffkit/main/images/banner.svg" alt="TariffKit" width="420">](https://github.com/eman/tariffkit)
+#### [TariffKit](https://github.com/eman/tariffkit)
+
+Offline electricity tariff engine for pricing imports and exports, forecasting rates, and calculating bills from interval meter data. TariffKit ships as a Python library and CLI, with REST, MQTT, and Home Assistant integrations built on the same table-driven engine; its first data provider covers PG&E residential tariffs, NBT export compensation, and California Community Choice Aggregators.
+
 [![Navien NWP500 Banner](images/banner_small.svg)](https://github.com/eman/ha_nwp500)
 #### [Python library](https://github.com/eman/nwp500-python) / [Home Assistant integration](https://github.com/eman/ha_nwp500)
 
